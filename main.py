@@ -1,5 +1,5 @@
 import psycopg2  # Biblioteca para conexão com PostgreSQL
-#import pg8000
+
 from kivy.uix.button import Button
 from kivy.uix.textinput import TextInput
 from kivy.uix.boxlayout import BoxLayout
@@ -19,10 +19,10 @@ from datetime import datetime
 
 # Configurações do banco de dados
 DB_PARAMS = {
-    'dbname': 'Monitoramento_Produção',
+    'dbname': 'Nome_do_seu_banco_de_dados',
     'user': 'postgres',
-    'password': 'analista#2024',
-    'host': '192.168.10.97',
+    'password': 'sua_senha_do_Postgree',
+    'host': 'Seu_IP_Ou_seu_host_do_Postgree',
     'port': '5432'
 }
 
